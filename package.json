@@ -1,0 +1,16 @@
+{
+  "name": "highlight",
+  "version": "0.0.2",
+  "repo": "jsedlacek/highlight",
+  "description": "A simple, pluggable API for syntax highlighting.",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "component/escape-html": "*"
+  },
+  "devDependencies": {
+    "component/assert": "*",
+    "component/domify": "*"
+  }
+}
