@@ -1,7 +1,7 @@
 
 var assert = require('assert');
 var domify = require('domify');
-var Highlight = require('highlight');
+var Highlight = require('../lib');
 
 describe('highlight', function(){
   it('should expose a constructor', function(){

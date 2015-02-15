@@ -1,16 +1,20 @@
 {
   "name": "highlight",
   "version": "0.0.3",
-  "repo": "jsedlacek/highlight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsedlacek/highlight.git"
+  },
   "description": "A simple, pluggable API for syntax highlighting.",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "component/escape-html": "*"
+    "escape-html": "git://github.com/component/escape-html"
   },
   "devDependencies": {
-    "component/assert": "*",
-    "component/domify": "*"
+    "domify": "^1.3.1",
+    "phantomjs": "^1.9.15",
+    "zuul": "^1.18.1"
   }
 }
